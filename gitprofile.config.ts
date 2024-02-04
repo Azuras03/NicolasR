@@ -32,9 +32,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio de Nicolas R.',
     description: '',
-    imageURL: '',
+    imageURL: 'https://media.discordapp.net/attachments/310821508874502146/796010502290538566/1609854066420.png',
   },
   social: {
     linkedin: 'russonicolas',
@@ -67,40 +67,27 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Université de Lorraine - Infra',
+      position: 'Rue Lionnois',
+      from: 'February 2023',
+      to: 'May 2023',
+      companyLink: 'https://www.univ-lorraine.fr/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: 'Baccalauréat',
+      body: 'Baccalauréat Physique/Mathématiques (Mention très bien)',
+      year: '2021',
       link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'BUT Informatique',
+      degree: 'Bachelor of Technology',
+      from: '2021',
+      to: '2024',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -118,7 +105,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'nord',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -185,7 +172,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> and ❤️❄️`,
 
   enablePWA: true,
 };
