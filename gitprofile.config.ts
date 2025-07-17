@@ -50,10 +50,11 @@ const CONFIG = {
       'https://raw.githubusercontent.com/Azuras03/NicolasR/main/src/assets/CV_RUSSO_NicolasSite.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java, JavaFX',
+    'SQL, PL/SQL',
     'JavaScript',
-    'React.js',
+    'PHP',
+    'Angular',
     'Node.js',
     'Nest.js',
     'MySQL',
@@ -76,10 +77,14 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'BUT Informatique',
+      body: 'Bachelor of Technology in Computer Science',
+      year: '2024',
+    },
+    {
       name: 'Baccalauréat',
       body: 'Baccalauréat Physique/Mathématiques (Mention très bien)',
       year: '2021',
-      link: 'https://example.com',
     },
   ],
   educations: [
@@ -88,6 +93,12 @@ const CONFIG = {
       degree: 'Bachelor of Technology',
       from: '2021',
       to: '2024',
+    },
+    {
+      institution: 'Telecom Nancy',
+      degree: 'Diplôme d’ingénieur',
+      from: '2024',
+      to: '2027',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
